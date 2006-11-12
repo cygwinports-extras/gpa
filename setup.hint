@@ -1,0 +1,5 @@
+category: Utils Gnome
+requires: cygwin gnupg gtk2-x11 libgpgme11 libgpg-error 
+sdesc: "GTK frontend for GnuPG"
+ldesc: "The GNU Privacy Assistant (GPA) is a GTK user interface for the
+GnuPG  (GNU Privacy Guard)."
