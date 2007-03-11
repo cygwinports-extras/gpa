@@ -1,0 +1,24 @@
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x Makefile.in -x makefile.in -x configure -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/gpa-0.7.5/src/hidewnd.c src/gpa-0.7.5/src/hidewnd.c
+--- origsrc/gpa-0.7.5/src/hidewnd.c	2006-03-20 06:31:05.000000000 -0600
++++ src/gpa-0.7.5/src/hidewnd.c	2007-03-10 21:27:01.703125000 -0600
+@@ -19,7 +19,7 @@
+  */
+ 
+ /* This module is only used in this environment */
+-#if defined(__MINGW32__) || defined(__CYGWIN__)
++#if defined(__MINGW32__)
+ #include <stdio.h>
+ 
+ #include <windows.h>
+diff -urN -x CYGWIN-PATCHES -x 'aclocal.m4*' -x ltmain.sh -x 'config.*' -x depcomp -x install-sh -x missing -x mkinstalldirs -x autom4te.cache -x '*compile' -x Makefile.in.in -x 'intltool*.in' -x 'xml-i18n-*.in' -x '*.pyc' -x '*.mo' -x '*.gmo' -x ABOUT-NLS -x Makevars.template -x COPYING -x INSTALL -x mdate-sh -x '*.orig' -x '*.rej' -x '*~' -x '*.temp' -x texinfo.tex -x ylwrap -x Makefile.in -x makefile.in -x configure -x gnome-doc-utils.make -x gnome-doc-utils.m4 -x intltool.m4 -x omf.make -x xmldocs.make origsrc/gpa-0.7.5/src/w32reg.c src/gpa-0.7.5/src/w32reg.c
+--- origsrc/gpa-0.7.5/src/w32reg.c	2005-11-15 11:09:03.000000000 -0600
++++ src/gpa-0.7.5/src/w32reg.c	2007-03-10 21:27:01.703125000 -0600
+@@ -20,7 +20,7 @@
+  */
+ 
+ #include <config.h>
+-#if defined (_WIN32) || defined (__CYGWIN32__)
++#if defined (_WIN32)
+  /* This module is only used in this environment */
+ 
+ #include <stdio.h>

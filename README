@@ -4,27 +4,30 @@ The GNU Privacy Assistant (GPA) is a GTK user interface for the
 GnuPG  (GNU Privacy Guard).
 
 Runtime requirements:
-  cygwin-1.5.21-2
-  gnupg-1.4.5-1
-  gtk2-x11-2.10.6-1
-  libgpg-error-1.1-1
-  libgpgme11-1.1.2-1
+  cygwin-1.5.24-2
+  gdk-pixbuf2-2.10.9-1
+  glib2-2.12.9-1
+  gtk2-x11-2.10.9-1
+  libgpg-error0-1.5-1
+  libgpgme11-1.1.4-1
+  libintl8-0.15-1
+  zlib-1.2.3-2
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.21-2
-  autoconf2.5-2.60-1
-  automake1.9-1.9.6-1
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.6-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
   make-3.81-1
-  pkg-config-0.20-1
-  sed-4.1.5-1
+  pkg-config-0.21-1
+  sed-4.1.5-2
 
 Canonical homepage:
-  http://www.gnupg.org/(en)/related_software/gpa/
+  http://www.gnupg.org/related_software/gpa/
 
 Canonical download:
   ftp://ftp.gnupg.org/gcrypt/alpha/gpa/
@@ -32,15 +35,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gpa-0.7.4-X-src.tar.bz2
+  unpack gpa-0.7.5-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gpa-0.7.4-X.cygport all
+  cygport ./gpa-0.7.5-X.cygport all
 
 This will create:
-  /usr/src/gpa-0.7.4-X-src.tar.bz2
-  /usr/src/gpa-0.7.4-X.tar.bz2
+  /usr/src/gpa-0.7.5-X-src.tar.bz2
+  /usr/src/gpa-0.7.5-X.tar.bz2
 
 -------------------------------------------
 
@@ -48,16 +51,16 @@ Files included in the binary package:
 
   /usr/bin/gpa.exe
   /usr/share/applications/gpa.desktop
-  /usr/share/doc/Cygwin/gpa-0.7.4.README
-  /usr/share/doc/gpa-0.7.4/ABOUT-NLS
-  /usr/share/doc/gpa-0.7.4/AUTHORS
-  /usr/share/doc/gpa-0.7.4/COPYING
-  /usr/share/doc/gpa-0.7.4/ChangeLog
-  /usr/share/doc/gpa-0.7.4/INSTALL
-  /usr/share/doc/gpa-0.7.4/NEWS
-  /usr/share/doc/gpa-0.7.4/README
-  /usr/share/doc/gpa-0.7.4/THANKS
-  /usr/share/doc/gpa-0.7.4/TODO
+  /usr/share/doc/Cygwin/gpa-0.7.5.README
+  /usr/share/doc/gpa-0.7.5/ABOUT-NLS
+  /usr/share/doc/gpa-0.7.5/AUTHORS
+  /usr/share/doc/gpa-0.7.5/COPYING
+  /usr/share/doc/gpa-0.7.5/ChangeLog
+  /usr/share/doc/gpa-0.7.5/INSTALL
+  /usr/share/doc/gpa-0.7.5/NEWS
+  /usr/share/doc/gpa-0.7.5/README
+  /usr/share/doc/gpa-0.7.5/THANKS
+  /usr/share/doc/gpa-0.7.5/TODO
   /usr/share/gpa/gpa.png
   /usr/share/gpa/gpa_logo.ppm
   /usr/share/gpa/gpa_tips.de
@@ -77,6 +80,9 @@ Files included in the binary package:
 --------------------
 
 Port Notes:
+
+----- version 0.7.5-1 -----
+Version bump.
 
 ----- version 0.7.4-1 -----
 Long-overdue version bump.

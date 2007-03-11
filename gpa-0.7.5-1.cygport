@@ -1,0 +1,6 @@
+inherit gnome2
+
+DESCRIPTION="GNU Privacy Assistant (GTK+ GnuPG frontend)"
+HOMEPAGE="http://wald.intevation.org/projects/gpa/"
+SRC_URI="http://wald.intevation.org/frs/download.php/324/${P}.tar.bz2
+	http://wald.intevation.org/frs/download.php/325/${P}.tar.bz2.sig"
