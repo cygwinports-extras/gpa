@@ -1,0 +1,10 @@
+inherit gnome2
+
+DESCRIPTION="GNU Privacy Assistant (GTK+ GnuPG frontend)"
+HOMEPAGE="http://wald.intevation.org/projects/gpa/"
+SRC_URI="http://wald.intevation.org/frs/download.php/350/${P}.tar.bz2
+         http://wald.intevation.org/frs/download.php/351/${P}.tar.bz2.sig"
+PATCH_URI="mirror://portage/app-crypt/${PN}/files/${P}-qa.patch
+           0.7.5-not-mingw.patch"
+
+MAKEOPTS+=" mkinstalldirs=\$(top_srcdir)/mkinstalldirs"
