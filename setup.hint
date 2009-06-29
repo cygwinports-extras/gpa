@@ -1,5 +1,5 @@
 category: Utils Gnome
-requires: cygwin glib2 gdk-pixbuf2 gtk2-x11 libgpg-error0 libgpgme11 libintl8 zlib
+requires: glib2 gdk-pixbuf2 gtk2-x11 libgpg-error0 libgpgme11 libintl8 zlib
 sdesc: "GnuPG GTK+ frontend"
 ldesc: "The GNU Privacy Assistant (GPA) is a GTK user interface for the
 GnuPG  (GNU Privacy Guard)."
