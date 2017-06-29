@@ -1,6 +1,12 @@
 inherit gnome2
 
-DESCRIPTION="GNU Privacy Assistant (GTK+ GnuPG frontend)"
+NAME="gpa"
+VERSION=0.7.6
+RELEASE=1
+CATEGORY="Utils"
+SUMMARY="GnuPG GTK+ frontend"
+DESCRIPTION="The GNU Privacy Assistant (GPA) is a GTK user interface for the
+GnuPG  (GNU Privacy Guard)."
 HOMEPAGE="http://wald.intevation.org/projects/gpa/"
 SRC_URI="http://wald.intevation.org/frs/download.php/350/${P}.tar.bz2
          http://wald.intevation.org/frs/download.php/351/${P}.tar.bz2.sig"
